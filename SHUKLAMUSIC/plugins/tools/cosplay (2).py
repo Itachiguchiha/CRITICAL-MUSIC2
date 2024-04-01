@@ -2,7 +2,7 @@ import requests
 from pyrogram import filters
 from pyrogram.types import Message,InlineKeyboardButton,InlineKeyboardMarkup
 from pyrogram.enums import ChatAction
-from DAXXMUSIC import app
+from SHUKLAMUSIC import app
 from config import BOT_USERNAME
 
 NYKAA = [
