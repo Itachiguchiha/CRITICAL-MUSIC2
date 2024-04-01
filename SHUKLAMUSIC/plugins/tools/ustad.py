@@ -15,16 +15,16 @@ app.on_message(
     & filters.group)
 async def help(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/b61227af05544deb76a34.jpg",
+        photo=f"https://graph.org/file/4cc1eb9ccfe186fcb7394.jpg",
         caption=f"""🥀 𝐂𝐥𝐢𝐜𝐤 𝐇𝐞𝐫𝐞 𝐅𝐨𝐫 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐎𝐰𝐧𝐞𝐫 🥀""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "🗡️ 𝐎ᴡɴᴇʀ 🗡️", url=f"https://t.me/SHIVANSH39")
+                        "🗡️ 𝐎ᴡɴᴇʀ 🗡️", url=f"https://t.me/The_clan_killer_12")
                 ],
                 [InlineKeyboardButton(
-                        "🗡️ 𝐎ᴡɴᴇʀ 🗡️", url=f"https://t.me/ITSZ_SHIVANSH")
+                        "🗡️ 𝐎ᴡɴᴇʀ 🗡️", url=f"https://t.me/The_clan_killer_12")
             ]
             ]
         ),
@@ -35,16 +35,16 @@ async def help(client: Client, message: Message):
     & filters.group)
 async def help(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/b61227af05544deb76a34.jpg",
+        photo=f"https://graph.org/file/4cc1eb9ccfe186fcb7394.jpg",
         caption=f"""🥀 𝐂𝐥𝐢𝐜𝐤 𝐇𝐞𝐫𝐞 𝐅𝐨𝐫 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐎𝐰𝐧𝐞𝐫 🥀""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "🗡️ 𝐎ᴡɴᴇʀ 🗡️", url=f"https://t.me/SHIVANSH39")
+                        "🗡️ 𝐎ᴡɴᴇʀ 🗡️", url=f"https://t.me/The_clan_killer_12")
                 ],
                 [InlineKeyboardButton(
-                        "🗡️ 𝐎ᴡɴᴇʀ 🗡️", url=f"https://t.me/ITSZ_SHIVANSH")
+                        "🗡️ 𝐎ᴡɴᴇʀ 🗡️", url=f"https://t.me/The_clan_killer_12")
             ]
             ]
         ),
@@ -55,16 +55,16 @@ async def help(client: Client, message: Message):
     & filters.private)
 async def help(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/b61227af05544deb76a34.jpg",
+        photo=f"https://graph.org/file/4cc1eb9ccfe186fcb7394.jpg",
         caption=f"""🥀 𝐂𝐥𝐢𝐜𝐤 𝐇𝐞𝐫𝐞 𝐅𝐨𝐫 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐎𝐰𝐧𝐞𝐫 🥀""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "🗡️ 𝐎ᴡɴᴇʀ 🗡️", url=f"https://t.me/SHIVANSH39")
+                        "🗡️ 𝐎ᴡɴᴇʀ 🗡️", url=f"https://t.me/The_clan_killer_12")
                 ],
                 [InlineKeyboardButton(
-                        "🗡️ 𝐎ᴡɴᴇʀ 🗡️", url=f"https://t.me/ITSZ_SHIVANSH")
+                        "🗡️ 𝐎ᴡɴᴇʀ 🗡️", url=f"https://t.me/The_clan_killer_12")
             ]
             ]
         ),
