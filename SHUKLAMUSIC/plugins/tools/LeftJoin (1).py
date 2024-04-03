@@ -1,4 +1,4 @@
-from AarohiX import app as bot
+from SHUKLAMUSIC import app as bot
 from pyrogram import filters
 from pyrogram.errors import RPCError, ChatAdminRequired
 from pyrogram.types import ChatMemberUpdated, InlineKeyboardMarkup, InlineKeyboardButton
@@ -44,7 +44,9 @@ async def member_has_joined(client: bot, member: ChatMemberUpdated):
         
         await client.send_photo(
             chat_id=member.chat.id,
-            photo="https://graph.org/file/6f913de8bd1fc44d2d7f2.jpg",
+            photo="https://telegra.ph/file/332470f53bdf7abb0244b.png",
+"https://telegra.ph/file/22b9b62921b320e0c9f97.png",
+"https://telegra.ph/file/689c794ff56c1b5333d57.png",
             caption=caption,
             reply_markup=user_button,
         )
@@ -85,7 +87,10 @@ async def member_has_left(client: bot, member: ChatMemberUpdated):
 
         await client.send_animation(
             chat_id=member.chat.id,
-            animation="https://telegra.ph/file/d28047520fad932521368.mp4",
+            animation="https://telegra.ph/file/4c2d1ad30397b5d50151b.png",
+"https://telegra.ph/file/6896d060f928887eafd19.png",
+"https://telegra.ph/file/e6733aed01d0fb225bfad.png",
+"https://telegra.ph/file/d1bd439c6206bc354840e.png",
             caption=caption,
             reply_markup=user_button,
         )
