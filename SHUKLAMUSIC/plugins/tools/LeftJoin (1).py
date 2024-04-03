@@ -38,7 +38,7 @@ async def member_has_joined(client: bot, member: ChatMemberUpdated):
         caption = (
             f" ❀ᴡᴇʟᴄᴏᴍᴇ {user.mention}! \n\n"
             f" ❀ɪᴛ's ᴀ ᴘʟᴇᴀsᴜʀᴇ ᴛᴏ ʜᴀᴠᴇ ʏᴏᴜ ᴡɪᴛʜ ᴜs! "
-            f"❀ғᴇᴇʟ ғʀᴇᴇ ᴛᴏ sʜᴀʀᴇ ᴜʀ ᴛʜᴏᴜɢʜᴛs ᴀɴᴅ ᴇɴᴊᴏʏ ᴛʜᴇ ᴄᴏᴍᴍᴜɴɪᴛʏ ᴠɪʙᴇs.\n\n"
+            f" ғᴇᴇʟ ғʀᴇᴇ ᴛᴏ sʜᴀʀᴇ ᴜʀ ᴛʜᴏᴜɢʜᴛs ᴀɴᴅ ᴇɴᴊᴏʏ ᴛʜᴇ ᴄᴏᴍᴍᴜɴɪᴛʏ ᴠɪʙᴇs.\n\n"
             f" ❀ᴊᴏɪɴ ᴅᴀᴛᴇ : {get_formatted_datetime()}"
         )
         
@@ -85,7 +85,7 @@ async def member_has_left(client: bot, member: ChatMemberUpdated):
 
         await client.send_animation(
             chat_id=member.chat.id,
-            animation="https://telegra.ph/file/4c2d1ad30397b5d50151b.png",
+            animation="https://graph.org/file/78a965b4f4496be905a26.mp4",
                 caption=caption,
             reply_markup=user_button,
         )
