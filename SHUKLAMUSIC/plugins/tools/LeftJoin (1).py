@@ -45,10 +45,10 @@ async def member_has_joined(client: bot, member: ChatMemberUpdated):
         await client.send_photo(
             chat_id=member.chat.id,
             photo=[
-            "https://telegra.ph/file/332470f53bdf7abb0244b.png",
-"https://telegra.ph/file/22b9b62921b320e0c9f97.png",
-"https://telegra.ph/file/689c794ff56c1b5333d57.png",
-    ]
+                  "https://telegra.ph/file/332470f53bdf7abb0244b.png",
+                  "https://telegra.ph/file/22b9b62921b320e0c9f97.png",
+                  "https://telegra.ph/file/689c794ff56c1b5333d57.png",
+                  ]
                 caption=caption,
             reply_markup=user_button,
         )
@@ -90,11 +90,11 @@ async def member_has_left(client: bot, member: ChatMemberUpdated):
         await client.send_animation(
             chat_id=member.chat.id,
             animation=[
-            "https://telegra.ph/file/4c2d1ad30397b5d50151b.png",
-"https://telegra.ph/file/6896d060f928887eafd19.png",
-"https://telegra.ph/file/e6733aed01d0fb225bfad.png",
-"https://telegra.ph/file/d1bd439c6206bc354840e.png",
-            ]
+                      "https://telegra.ph/file/4c2d1ad30397b5d50151b.png",
+                      "https://telegra.ph/file/6896d060f928887eafd19.png",
+                      "https://telegra.ph/file/e6733aed01d0fb225bfad.png",
+                      "https://telegra.ph/file/d1bd439c6206bc354840e.png",
+                      ]
                 caption=caption,
             reply_markup=user_button,
         )
