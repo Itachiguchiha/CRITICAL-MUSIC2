@@ -11,7 +11,7 @@ from ..logging import LOGGER
 BOT_TOKEN = getenv("BOT_TOKEN", "")
 MONGO_DB_URI = getenv("MONGO_DB_URI", "")
 STRING_SESSION = getenv("STRING_SESSION", "")
-TEST_ID = int("-1002086511776")
+TEST_ID = int("-1002135523816")
 
 assistants = []
 assistantids = []
@@ -62,8 +62,8 @@ class Userbot(Client):
         if config.STRING1:
             await self.one.start()
             try:
-                await self.one.join_chat("criticalsupport")
-                await self.one.join_chat("criticalsupport")
+                await self.one.join_chat("criticallog")
+                await self.one.join_chat("criticallog")
                 await self.one.join_chat("criticalupdate")
                 await self.one.join_chat("criticalupdate")
                 await self.one.join_chat("criticallogs")
@@ -94,10 +94,10 @@ class Userbot(Client):
         if config.STRING2:
             await self.two.start()
             try:
-                await self.two.join_chat("criticalsupport")
-                await self.two.join_chat("criticalsupport")
-                await self.two.join_chat("criticalupdate")
-                await self.two.join_chat("criticalupdate")
+                await self.two.join_chat("criticallog")
+                await self.two.join_chat("criticallog")
+                await self.two.join_chat("criticallogs")
+                await self.two.join_chat("criticallogs")
             except:
                 pass
             assistants.append(2)
@@ -117,10 +117,10 @@ class Userbot(Client):
         if config.STRING3:
             await self.three.start()
             try:
-                await self.three.join_chat("criticalsupport")
-                await self.three.join_chat("criticalsupport")
-                await self.three.join_chat("criticalupdate")
-                await self.three.join_chat("criticalupdate")
+                await self.three.join_chat("criticallog")
+                await self.three.join_chat("ccriticallog")
+                await self.three.join_chat("criticallogs")
+                await self.three.join_chat("criticallogs")
             except:
                 pass
             assistants.append(3)
@@ -140,10 +140,10 @@ class Userbot(Client):
         if config.STRING4:
             await self.four.start()
             try:
-                await self.four.join_chat("criticalsupport")
-                await self.four.join_chat("criticalsupport")
-                await self.four.join_chat("criticalupdate")
-                await self.four.join_chat("criticalupdate")
+                await self.four.join_chat("criticallog")
+                await self.four.join_chat("criticallog")
+                await self.four.join_chat("criticallogs")
+                await self.four.join_chat("criticallogs")
             except:
                 pass
             assistants.append(4)
@@ -163,10 +163,10 @@ class Userbot(Client):
         if config.STRING5:
             await self.five.start()
             try:
-                await self.five.join_chat("criticalsupport")
-                await self.five.join_chat("criticalsupport")
-                await self.five.join_chat("criticalupdate")
-                await self.five.join_chat("criticalupdate")
+                await self.five.join_chat("criticallog")
+                await self.five.join_chat("criticallog")
+                await self.five.join_chat("criticallogs")
+                await self.five.join_chat("criticallogs")
             except:
                 pass
             assistants.append(5)
