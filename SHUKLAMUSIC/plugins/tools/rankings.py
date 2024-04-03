@@ -1,6 +1,6 @@
 from pyrogram import filters
 from pymongo import MongoClient
-from DAXXMUSIC import app
+from SHUKLAMUSIC import app
 from config import MONGO_DB_URI
 from pyrogram.types import *
 from pyrogram.errors import MessageNotModified
