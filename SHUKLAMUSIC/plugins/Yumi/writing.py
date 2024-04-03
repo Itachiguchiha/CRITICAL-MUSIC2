@@ -18,7 +18,7 @@ async def echo(bot, message):
     try:
         text = message.text.split(' ',1)[1]
     except IndexError:
-        return await message.reply_text("Example:\n\n`/figlet SHIVANSH PAPA `")
+        return await message.reply_text("Example:\n\n`/figlet 𝙸𝚃𝙰𝙲𝙷𝙸 𝙿𝙰𝙿𝙰 `")
     kul_text, keyboard = figle(text)
     await message.reply_text(f"ʜᴇʀᴇ ɪs ʏᴏᴜʀ ғɪɢʟᴇᴛ :\n<pre>{kul_text}</pre>", quote=True, reply_markup=keyboard)
 
@@ -32,4 +32,4 @@ async def figlet_handler(Client, query: CallbackQuery):
 __mod_name__ = "Fɪɢʟᴇᴛ" 
 __help__="""
 ❍ /figlet*:* ᴍᴀᴋᴇs ғɪɢʟᴇᴛ ᴏғ ᴛʜᴇ ɢɪᴠᴇɴ ᴛᴇxᴛ
-Example:\n\n`/figlet SHIVANSH PAPA `"""
+Example:\n\n`/figlet 𝙸𝚃𝙰𝙲𝙷𝙸 𝙿𝙰𝙿𝙰 `"""
