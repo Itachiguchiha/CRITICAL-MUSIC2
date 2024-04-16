@@ -13,10 +13,10 @@ API_HASH = getenv("API_HASH")
 BOT_TOKEN = getenv("BOT_TOKEN")
 
 # Get Your bot username
-BOT_USERNAME = getenv("BOT_USERNAME" , "Critical_pro_bot")
+BOT_USERNAME = getenv("BOT_USERNAME" , "MegumiRobot")
 
 # Don't Add style font 
-BOT_NAME = getenv("BOT_NAME" , "˹ 𝗖ʀɪᴛɪᴄᴀʟ ✘ 𝗠ᴜsɪᴄ ˼")
+BOT_NAME = getenv("BOT_NAME" , "˹ 𝐌ᴇɢᴜᴍɪ ✘ 𝗠ᴜsɪᴄ ˼")
 
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
@@ -47,8 +47,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/criticalupdate")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/criticalsupport")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/megumiupdate")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/megumisupport")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", True))
